@@ -11,13 +11,13 @@ const run = async () => {
   //   });
   //await user.save();
 
-  const user = await User.create({
-    //if i use create then new will not be required
-    //does the same thing that does user.save()
-    name: "Avijit",
-    age: 23,
-  });
+//   const user = await User.create({
+//     //if i use create then new will not be required
+//     //does the same thing that does user.save()
+//     name: "Avijit",
+//     age: 23,
+//   });
 
-  console.log(user);
+//   console.log(user);
 };
 run();

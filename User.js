@@ -7,4 +7,4 @@ const userSchema = new mongoose.Schema({
 });
 
 // Step 2: Creating the model
-module.exports = mongoose.model("User", userSchema); //that will create the collection
+module.exports = mongoose.model("User", userSchema); //that will create the collection.
